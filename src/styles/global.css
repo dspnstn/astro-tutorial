@@ -3,6 +3,16 @@ html {
     font-family: sans-serif;
 }
 
+/*next two are for the dark mode*/
+html.dark {
+  background-color: #353266;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
 body {
     background-color: aliceblue;
     margin: 0 auto;
